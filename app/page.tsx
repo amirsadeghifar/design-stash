@@ -41,20 +41,24 @@ export default function Home() {
                   {item.subtitle}
                 </h3>
                 <ul className='mt-14 space-y-2'>
-                  {item.links.map((link) => (
-                    <li key={link.url}>
-                      <a
-                        href={link.url}
-                        target='_blank'
-                        rel='noopener noreferrer'
-                        className='text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100'
-                      >
-                        <TextScramble className='font-mono text-sm uppercase'>
-                          {link.label}
-                        </TextScramble>
-                      </a>
-                    </li>
-                  ))}
+                  {item.links.map((link, linkIndex) =>
+                    link.label === '' ? (
+                      <li key={linkIndex} className='h-4' />
+                    ) : (
+                      <li key={link.url}>
+                        <a
+                          href={link.url}
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          className='text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100'
+                        >
+                          <TextScramble className='font-mono text-sm uppercase'>
+                            {link.label}
+                          </TextScramble>
+                        </a>
+                      </li>
+                    )
+                  )}
                 </ul>
               </div>
             ))}
