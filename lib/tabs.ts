@@ -32,6 +32,7 @@ export const TABS = [
     links: [
       { label: 'Paper', url: 'https://paper.design/' },
       { label: 'Pencil', url: 'https://pencil.dev/' },
+      { label: 'Coolors', url: 'https://coolors.co' },
       { label: '', url: '' },
       { label: 'Craftwork', url: 'https://craftwork.design/' },
       { label: '', url: '' },
