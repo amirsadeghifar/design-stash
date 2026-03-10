@@ -31,6 +31,7 @@ export const TABS = [
     subtitle: 'From Concept to Pixel',
     links: [
       { label: 'Paper', url: 'https://paper.design/' },
+      { label: 'Pencil', url: 'https://pencil.dev/' },
       { label: '', url: '' },
       { label: 'Craftwork', url: 'https://craftwork.design/' },
       { label: '', url: '' },
