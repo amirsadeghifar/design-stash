@@ -23,7 +23,9 @@ export const TABS = [
       { label: 'Reacticx', url: 'https://www.reacticx.com/' },
       { label: 'React Native Reusables', url: 'https://reactnativereusables.com/' },
       { label: '', url: '' },
-      { label: 'React Native Reanimated', url: 'https://docs.swmansion.com/react-native-reanimated/' }
+      { label: 'React Native Reanimated', url: 'https://docs.swmansion.com/react-native-reanimated/' },
+      { label: '', url: '' },
+      { label: 'Paywall Screens', url: 'https://www.paywallscreens.com/' }
     ],
   },
   {
@@ -38,6 +40,10 @@ export const TABS = [
       { label: '', url: '' },
       { label: 'Dribbble', url: 'https://dribbble.com/' },
       { label: 'Mobbin', url: 'https://mobbin.com' },
+      { label: '', url: '' },
+      { label: 'LandBook', url: 'https://land-book.com/' },
+      { label: 'Logggos', url: 'https://www.logggos.club/' },
+      { label: 'Logobook', url: 'https://logobook.com/' },
       { label: '', url: '' },
       { label: 'Josh Puckett', url: 'https://joshpuckett.me/' },
       { label: 'Interface Craft', url: 'https://www.interfacecraft.dev/' }
